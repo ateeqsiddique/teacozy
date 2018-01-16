@@ -64,12 +64,56 @@ a {
   flex-wrap: wrap;
   width: 1000px;
   height: 500px;
-  align-content: center;
   border: 1px solid red;
   position:relative;
   top: 75px;
+  margin-left: 100px;
+  justify-content: space-between;
 }
 .teas img{
   height:200px;
   width: 300px;
+}
+.teas .myrtle{
+  padding-left: 175px;
+}
+.teas .bedford{
+  padding-right: 175px;
+}
+.teas h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.locationsites{
+  width: 1200px;
+  height: 150px;
+  border: 1px solid green;
+  position: relative;
+  top: 75px;
+  display: block;
+  align-content: center;
+  background-image: ;
+}
+.sites {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 500px;
+  border: 1px solid red;
+  position:relative;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+}
+.downtown, .eastbayside, .oakdale{
+  height: 250px;
+  width: 300px;
+  background-color: black;
+  border: 1px solid red;
+}
+.downtown{
+  margin-left: 110px;
+}
+.oakdale{
+  margin-right: 110px;
 }
