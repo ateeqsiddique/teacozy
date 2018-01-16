@@ -49,6 +49,27 @@ a {
   background-color:black;
   margin-top: 275px;
 }
-.missionstatement h2{
-  padding-bottom: 10px;
+#featuredtea{
+  width: 1000px;
+  height: 200px;
+  border: 1px solid blue;
+  position: relative;
+  top: 75px;
+  display: block;
+  margin-left: 100px;
+  align-content: center;
+}
+.teas{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 500px;
+  align-content: center;
+  border: 1px solid red;
+  position:relative;
+  top: 75px;
+}
+.teas img{
+  height:200px;
+  width: 300px;
 }
