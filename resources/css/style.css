@@ -20,7 +20,7 @@ body{
   display: flex;
   height: 50px;
   padding-left: 10px;
-  flex-grow: 1;
+
 
 }
 nav span{
@@ -84,46 +84,28 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.locationsbackground{
-  display: flex;
-  flex-wrap: wrap;
+.locationscontainer{
   width: 1200px;
-  height: 500px;
+  height: 700px;
   border: 1px solid blue;
   margin-top: 150px;
-  justify-content: space-between;
   align-items: center;
   background-image: url("../images/img-locations-background.jpg");
   position: relative;
   top: 75px;
-
 }
-.locationsites{
-  width: 1200px;
-  height: 100px;
-  border: 1px solid green;
-  position: relative;
-  top: 75px;
-  display: block;
-  align-content: center;
 
-}
-.sites {
+.sites{
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
-  height: 700px;
-  border: 1px solid red;
-  position:relative;
-  top: 75px;
   justify-content: space-between;
-  align-items: center;
 }
 .downtown, .eastbayside, .oakdale{
+  display: inline-block;
   height: 250px;
   width: 300px;
   background-color: black;
-  border: 1px solid red;
+  text-align: center;
 }
 .downtown{
   margin-left: 110px;
@@ -133,4 +115,7 @@ a {
 }
 #locations h2{
   padding-bottom: 15px;
+  display: block;
+}
+
 }
