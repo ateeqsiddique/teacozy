@@ -6,3 +6,26 @@ body{
   opacity: 0.9;
   text-align: center;
 }
+header{
+  display:flex;
+  position:fixed;
+  z-index: 1;
+  height:69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+  flex-grow: 1;
+
+}
+nav span{
+  display: inline-block;
+  padding-right: 10px;
+}
+a {
+  color: seashell;
+}
